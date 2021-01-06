@@ -117,6 +117,7 @@ BOOT_KERNEL_MODULES := \
     hwid.ko \
     focaltech_touch.ko \
     goodix_core.ko \
+    msm_drm.ko \
     xiaomi_touch.ko
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 
